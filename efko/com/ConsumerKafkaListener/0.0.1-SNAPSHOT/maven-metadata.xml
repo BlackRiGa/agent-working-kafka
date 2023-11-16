@@ -3,33 +3,33 @@
   <groupId>efko.com</groupId>
   <artifactId>ConsumerKafkaListener</artifactId>
   <versioning>
-    <lastUpdated>20231116145617</lastUpdated>
+    <lastUpdated>20231116150910</lastUpdated>
     <snapshot>
-      <timestamp>20231116.145617</timestamp>
+      <timestamp>20231116.150910</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.1-20231116.145617-1</value>
-        <updated>20231116145617</updated>
+        <value>0.0.1-20231116.150910-1</value>
+        <updated>20231116150910</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-20231116.145617-1</value>
-        <updated>20231116145617</updated>
+        <value>0.0.1-20231116.150910-1</value>
+        <updated>20231116150910</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-20231116.145617-1</value>
-        <updated>20231116145617</updated>
+        <value>0.0.1-20231116.150910-1</value>
+        <updated>20231116150910</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>0.0.1-20231116.145617-1</value>
-        <updated>20231116145617</updated>
+        <value>0.0.1-20231116.150910-1</value>
+        <updated>20231116150910</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
