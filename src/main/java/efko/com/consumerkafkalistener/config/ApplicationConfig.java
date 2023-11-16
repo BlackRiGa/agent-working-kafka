@@ -102,7 +102,6 @@ public class ApplicationConfig {
             }
 
             if (retry == MAX_RETRIES) {
-                //TODO поставить триггер от Zabbix по логу
                 log.error("Max retry count reached for processing package: " + key);
             }
         }
