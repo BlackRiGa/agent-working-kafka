@@ -1,0 +1,27 @@
+# Переменные
+APP_NAME = consumer_hr_wss
+DOCKER_COMPOSE_FILE = docker-compose.yml
+
+# Сборка приложения с помощью Gradle
+build:
+	@echo "Building the application..."
+	./gradlew build
+
+# Запуск приложения с помощью Docker Compose
+run:
+	@echo "Starting the application using Docker Compose..."
+	docker-compose -f $(DOCKER_COMPOSE_FILE) up -d
+
+# Остановка приложения
+stop:
+	@echo "Stopping the application..."
+	docker-compose -f $(DOCKER_COMPOSE_FILE) down
+
+# Сборка и запуск
+all: build run
+
+# Очистка собранных файлов
+clean:
+	@echo "Cleaning..."
+	./gradlew clean
+	docker-compose -f $(DOCKER_COMPOSE_FILE) down
