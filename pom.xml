@@ -148,8 +148,8 @@
     <distributionManagement>
         <repository>
             <id>test-repo</id>
-            <name>Reposotiry</name>
-            <url>file://${project.build.directory}/{develop}</url>
+            <name>ConsumerKafkaListener</name>
+            <url>file://${project.build.directory}/{1.0.0}</url>
         </repository>
     </distributionManagement>
 
